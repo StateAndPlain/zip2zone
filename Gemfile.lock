@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ffi (1.9.6)
+    gdbm (1.2)
     rake (10.4.2)
     sqlite3 (1.3.10)
 
@@ -8,5 +10,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi
+  gdbm
   rake
   sqlite3
